@@ -1,0 +1,202 @@
+/* THE S'MOORES */
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #000000;
+	background-image: url('wesley-copy-2.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	position: fixed;
+	margin: 10rem 7rem;
+	width: 100%;
+	max-width: 50rem;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2.8rem;
+	margin-bottom: 0;
+}
+
+p {
+	font-size: 1.4rem;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	font-size: 1.4rem;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #cd4646;
+	transform: scale(2, 2);
+	text-shadow: #530f0f;
+	transition: all 800ms ease;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.header--menu ul li {
+	margin-left: 3rem;
+	line-height: 3.2rem;
+	text-transform: lowercase;
+}
+
+
+
+/* TYPOGRAPHY STYLES */
+
+.logotype {
+	max-width: 35rem;
+}
+
+.serif {
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+.title {
+	font-size: 3.8rem;
+	font-weight: lighter;
+	line-height: 3.8rem;
+	width: 100%;
+	max-width: 24rem;
+}
+
+.title--alt {
+	/*border-bottom: 3px solid white;*/
+	text-align: right;
+
+}
+
+.title__indent {
+	padding-left: 5rem;
+}
+
+.heading {
+	font-size: 2.4rem;
+}
+
+.subtitle {
+	font-size: 1.6rem;
+	margin-top: .5rem;
+}
+
+.body-copy {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.hidden {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.header--outline {
+	max-width: 36rem;
+	padding: 1rem 3rem;
+	border: 6px solid hsla(0, 0%, 100%, 0.40)
+}
+
+.header--logo {
+	position: relative;
+	left: -7rem;
+}
+
+.header--logo p {
+	margin: 1.5rem 0 1rem 5rem;
+}
+
+
+/* BROWSER BORDER */
+
+[class*=body--border__] {
+	border-left: 5px solid #7d0000;
+	border-top: 5px solid #7d0000;
+	border-right: 5px solid #7d0000;
+	border-bottom: 5px solid #7d0000;
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 100;
+}
+
+.body--border__top {
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.body--border__right {
+	bottom: 0;
+	right: 0;
+	height: 100%;
+}
+
+.body--border__bottom {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.body--border__left {
+	bottom: 0;
+	left: 0;
+	height: 100%;
+}
+
+/* CONTENT */
+
+.container {
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-width: 64rem;
+	width:100%;
+	height: 100%;
+	padding: 4rem;
+	z-index: 50;
+}
+
+.container--charity__nepal {
+	max-width: 32rem;
+	width: 100%;
+}
+
+
+/* FOOTER */
+
+.footer {
+	position: fixed;
+	width: 100%;
+	height: 4rem;
+	bottom: 2rem;
+	text-align: left;
+}
+
+.footer--social {
+	display: block;
+}
+
+.footer--social li {
+	display: inline-block;
+}
+
+.social__icon {
+	width: 2rem;
+}
